@@ -1,0 +1,53 @@
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+port: 8001
+safe: false
+
+title: The Official UM Guide to Acronyms
+name: Tatyana Dadabbo, Jinxing Ding, Brahm Landis, Mohammad Saad
+email: mohasaad@umich.edu
+email_full: mailto:mohasaad@umich.edu
+website: https://mohsaad.com
+website_full: https://mohsaad.com
+
+
+baseurl: "/"
+
+
+
+######################################
+### Blog details
+######################################
+
+author:
+  #  facebook:         your-id
+  #   youtubeUser:      your-id
+  #  youtubeChannel:   your-id
+  #  twitter:          your-id
+  github:           mohsaad
+  #  stackoverflow:    your-id
+  #  quora:            your-id
+  linkedin:         mohsaad
+  #  pinterest:        your-id
+  #  googlePlus:       your-id
+  instagram:        mohsaad023
+  #  reddit:           your-id
+  #  medium:           your-id
+  #  tumblr:           your-id
+  #  email:            your-id@your-email.com
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           America/Los_Angeles
+permalink:          /blog/:year-:month-:day/:title/
+
+copyright:
+  year:             2021
+  name:             Tatyanna Dadabbo, Jinxing Ding, Brahm Landis, Mohammad Saad
+
+# needed for travis-ci build
+exclude: [vendor, _old]
