@@ -22,7 +22,7 @@ body {
   Link
   -------------- */
 a {
-  color: $link-color;
+  color: $oc-maize-0;
   text-decoration: none;
 
   &:hover,
@@ -44,7 +44,7 @@ h1 {
   padding-bottom: 0.3em;
   font-size: 2.25em;
   line-height: 1.2em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid $oc-maize-0;
 }
 
 h2 {
@@ -52,7 +52,7 @@ h2 {
   padding-bottom: 0.3em;
   font-size: 1.75em;
   line-height: 1.225em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid $oc-maize-0;
 }
 
 h3 { 
@@ -78,7 +78,7 @@ h6 {
   -------------- */
 
 p {
-  color: $text-color;
+  color: $oc-maize-0;
   margin: 0 0 1rem;
   line-height: 1.7em;
 }
